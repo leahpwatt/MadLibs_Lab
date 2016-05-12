@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MadLibs</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
+	<script src="script.js"></script>
+	<script src="resultsController.js"></script>
+	<script src="wordsController.js"></script>
+	<script src="service.js"></script>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+	<body ng-app="madLib">
+		<ul class="center">
+			<li><a href="#/words.html">Entry</a></li>
+			<li><a href="#/results">Results</a></li>
+		</ul>
+	<div ng-view=""></div>
+</body>
+</html>

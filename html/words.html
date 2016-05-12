@@ -1,0 +1,14 @@
+<h1 class="center">"Classic" MadLibs</h1>
+<h3 class="center">Fill in the blanks below with the specified parts of speech, then click 'submit' to see the results!</h3>
+
+<form>
+	<input type="text" ng-model="wordModel" placeholder="Adjective">
+	<input type="text" ng-model="wordModel2" placeholder="Plural Noun">
+	<input type="text" ng-model="wordModel3" placeholder="Noun">
+	<input type="text" ng-model="wordModel4" placeholder="Noun">
+	<input type="text" ng-model="wordModel5" placeholder="Continuous Verb">
+	<input type="text" ng-model="wordModel6" placeholder="Superlative Adjective">
+	<input type="text" ng-model="wordModel7" placeholder="Past Tense Verb">
+
+	<input type="submit" ng-click="addWord(wordModel, wordModel2, wordModel3, wordModel4, wordModel5, wordModel6, wordModel7)" />
+</form>
